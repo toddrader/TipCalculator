@@ -1,0 +1,41 @@
+body {
+    background-image: url(puppy.jpg);
+    color:black;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    width: 300px;
+    border: 1px outset grey;
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 500px;
+    border: 1px outset grey;
+    padding: 20px;
+}
+
+#button {
+    width: 200px;
+    margin: 0 auto;
+    font-family: 'Pinyon Script', cursive;
+}
+
+#bill {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-left: 5px;
+}
